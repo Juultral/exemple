@@ -1,4 +1,6 @@
 var a = document.getElementById('btn');
 a.addEventListener("click",function(){
-  alert("click");
+  if(alert("click")){
+    alert("Ati apast OK")
+  }
 });
